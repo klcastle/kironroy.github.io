@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Heebo:400,300' rel='stylesheet' type='text/css'>
+	
+    
+    <!-- These are the styles for the comic -->
+    <style>
+      body {
+        background-color: #efefef;
+        font-family: 'Heebo', sans-serif;
+		font-weight: 300;
+		font-size: 15px;
+        line-height: 1.2;
+        text-align: center;
+        padding: 30px 0 0 0px;
+		color: #000000;
+      }
+      h1 {
+        -text-transform: uppercase;
+		font-family: 'Heebo', sans-serif;
+        font-size: 30px;
+        color: #C80914;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 250px;
+        height: 250px;
+        -border: 1px solid black;
+        -background: #F7FBFB;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+		border-radius: 0%;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 3px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        -background: #C80914;
+        text-align: center;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+		-border-radius: 50%;
+        top:auto;
+        -border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        -border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        -border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: snow ;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        -border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Step 1: This is where you can edit the title of your comic -->
+    <h1>Portfolio</h1> 
+
+    <!-- 
+This is where the comic starts. 
+The 'comic' <div> wraps around each comic 'scene' to contain them all.
+-->
+    <div class="comic">
+
+      <!--
+Steps 2, 3, and 4:
+The below HTML is the first scene of the comic.
+Start by changing the images in the scene to one of your own photos.    
+-->
+      <div class="scene">
+        <p class="caption bottom">Text Text</p>
+        <!--<p class="speech left">Look at the view!</p> -->
+        <a href="http://www.arcgis.com/apps/MapTour/index.html?appid=186a3c01f7fa4d7487b7f2befd0d0b5c"> <img src="http://kironroy.github.io/euro.svg" alt= "logo" ></a>
+      </div>
+
+      <!-- This is the second scene in the comic-->
+      <div class="scene">
+        <p class="caption bottom">Text Text</p>
+        <img src="http://kironroy.github.io/drop.svg" alt="" />
+      </div>
+
+      <!-- This is the third scene -->
+      <div class="scene">
+		 <p class="caption bottom">Text Text</p>
+        <!-- <p class="speech left">Speech bubbles OMG!</p> -->
+        <img src="http://kironroy.github.io/drop.svg" alt="" />
+      </div>
+
+      <!-- This is the fourth scene -->
+      <div class="scene">
+       	<p class="caption bottom">Text Text</p>
+        <img src="http://kironroy.github.io/drop.svg" alt="" />
+      </div>
+
+      <!-- This is the fifth scene -->
+      <div class="scene">
+		<p class="caption bottom">Text Text</p> 
+        <img src="http://kironroy.github.io/drop.svg" alt="" />
+      </div>
+
+      <!-- This is the sixth scene -->
+      <div class="scene">
+        <p class="caption bottom">Text Text</p>
+        <img src="http://kironroy.github.io/drop.svg" alt="" />
+      </div>
+<script src="//repl.it/embed/CmhF/0.js"></script>
+      <!-- 
+This is the end of the comic :(
+Want to create a larger comic?
+
+Step 6:
+Copy the HTML for a 'scene' and paste it below this comment
+-->
+
+    </div>
+	<br>
+	<br>
+
+    <!-- Disclaimer for images -->
+    <footer>
+      A project by <a href="http://kironroy.github.io">Kiron Roy</a>
+    </footer>
+
+  </body>
+</html>
+

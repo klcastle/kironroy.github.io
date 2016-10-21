@@ -1,2 +1,2 @@
 # kironroy.github.io
-Photography | Web Design
+Kiron Roy's Portfolio
