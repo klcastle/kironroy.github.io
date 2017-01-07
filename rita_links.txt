@@ -1,0 +1,50 @@
+
+https://pm.officeally.com/pm/Login.aspx  = office ally login
+
+https://www.medi-cal.ca.gov/Eligibility/Login.asp = medi cal
+
+https://aerial.carecoordination.medecision.com/dsipa/physician/LoginDefault.aspx?Logout=Y = aerial
+
+https://apps.availity.com/availity/web/public.elegant.login = availity
+
+https://www.uhcwest.com/commonPortal/logouthandler = united healthcare
+
+https://www.healthnet.com/portal/provider/home.ndo = healthnet
+
+https://www.blueshieldca.com/provider/home.sp = blueshield
+
+https://navinet.navimedix.com/sign-in?ReturnUrl=/ = navinet
+
+https://mpmweb.medpointmanagement.com/2011/Default.aspx = medpoint
+
+https://healthid.optum.com/tb/app/index.html?TARGET=HTTPS%3A%2F%2Fwww.uhcmilitarywest.com%2Fuhcmw%2Fportal%2Fsecure%2Fprovider%2Foidredirect%2F&relyingAppId=TBP39755#/login = united healthcare 2
+
+https://www.cozeva.com/user/login = cozeva
+
+https://www.questdiagnostics.com/questConnect/cspLogin.do?method=getRoles = quest diagnostics
+
+https://umih-portal.com/Portal/Login.aspx?ReturnUrl=%2fportal%2f = carestream
+
+https://cignaforhcp.cigna.com/web/public/guest/ = signa
+
+http://www.immunize.org/vis/ = immune.org
+
+https://external.lacare.org/oam/server/obrareq.cgi?encquery%3D2PYm7ygji8Nq9aGhg6Jvh%2B67qcxUwX6JwlIJgmiZn3vP42jzbhOIT0Y5tWwappdzru9LVBbJjJCm3Mcu2a98Id6R4i5Jbftr0yJIOcLE2yGFbWOqEIKEUS4jTfMIfveStpnpHuDRqag8CLNo6FRzFfpYYpUHgU90kjcydc4JXHLSZgGBcb%2BvRZZf%2Bzc482NI%2Fzyl0P00CBQ%2FETbq824GKAuvsuanZ1qpu0L%2BNO6Jfa1l5BJIeE5m9tbFG%2BjS4%2BUgcP1rgc3fto%2Fhru7GVVT2vWtDlM2MKX%2BrEsj5YPjp73Nj3PU0bfkpK3Z1yFeXvx6Jw3FAZeM2Mkwia3gjWqSk3FmnWBr%2BTlaEOR%2FVc%2BUl4i2L4og2Eqm3yA2uqmhqARjqxJ6gBViGUl%2BO20DoPTWYPg%3D%3D%20agentid%3DProdExt_Pinole_Pittsburg%20ver%3D1%20crmethod%3D2&ECID-Context=1.005HOKIhh_1CcpO5yj9DiW0004Qi00021d%3BkXjE    = L.A. care
+
+https://eznetportal.pihhealth.org/EZ-NET60/Login.aspx = eznetportal
+
+https://www.vaccineshoppe.com/index.cfm?fa=anon.homepage = vaccineshop
+
+https://member.capphysicians.com/ = cooperative american physicans
+
+http://eziz.org/vfc/forms/ = EZIZ
+
+
+
+
+
+
+
+
+
+
