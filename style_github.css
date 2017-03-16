@@ -1,232 +1,186 @@
-
 div {
-	border-radius: 0px;
+    border-radius: 0px;
 }
-
 body {
-	font-family: 'Heebo', sans-serif;
-	font-size: 19px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
     font-weight: 400;
-	color:#000000;
+    color: #000000;
     background-color: #BDBDBD;
     min-width: 1400px;
-
 }
-
-
-
 hr {
-	color:#09c;
-	width: 100%;
-	height: 1px;
+    color: #09c;
+    width: 100%;
+    height: 1px;
 }
-
 #sections {
-    -background-color:#BDBDBD;
-    background-color:#FFFFFF;
-   	text-align:left;
-	-float: left;
-	margin: 0px, 2px, 2px, 2px;
-	padding: 1px 6px;
-	width: 99%;
-	-height: 4px;
+    -background-color: #BDBDBD;
+    background-color: #FFFFFF;
+    text-align: left;
+    -float: left;
+    margin: 0px, 2px, 2px, 2px;
+    padding: 1px 6px;
+    width: 99%;
+    -height: 4px;
 }
-
 #header {
-	z-index: 1;
-	position: fixed;
-	width: 98.9%;
-	margin-top: -16px;
-	height: 60px;
-	background-color: #000000;
-	-box-shadow: 2px 2px 2px #888888;
-	margin-bottom: 10px;
+    z-index: 1;
+    position: fixed;
+    width: 98.9%;
+    margin-top: -16px;
+    height: 60px;
+    background-color: #000000;
+    -box-shadow: 2px 2px 2px #888888;
+    margin-bottom: 10px;
 }
-
-
-
 h2 {
-	margin-left: 5px;
-	margin-bottom: 15px;
-	font-family: 'Heebo', sans-serif;
-	font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
     -text-transform: uppercase;
-
 }
-
 h3 {
     margin-left: 20px;
-	margin-bottom: 15px;
-   font-family: 'Heebo', sans-serif;
-	font-size: 17px;
+    margin-bottom: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
     letter-spacing: -.30px;
     font-weight: 500;
     -text-transform: uppercase;
-
 }
-
 h4 {
     margin-left: 3px;
     margin-bottom: 15px;
-	font-family: 'Heebo', sans-serif;
-	font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
     font-weight: 500;
     color: #9C6;
     -text-transform: lowercase;
-	
 }
-
 .right p {
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: -10px;
-	font-family: 'Heebo', sans-serif;
-	font-size: 14px;
-	-color: #9C6;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    -color: #9C6;
 }
-
 li {
-	list-style-type: none;
-	font-family: 'Heebo', sans-serif;
-	margin: 1.2em 0;
-  	font-size: 15px;
+    list-style-type: none;
+    font-family: 'Heebo', sans-serif;
+    margin: 1.2em 0;
+    font-size: 15px;
 }
-
 a:hover {
-	font-weight: bold;
-	color: #000;
-
-}
-
-a:link {
-	text-decoration: none;
+    font-weight: bold;
     color: #000;
-
 }
-
+a:link {
+    text-decoration: none;
+    color: #000;
+}
 .left {
-	position: fixed;
-	float: left;
-	margin-top: 57px;
-	width: 10%;
-	height: 2018px;
-	-background-color: #FFFFFF;
-	-box-shadow: 2px 2px 2px #888888;
-	-margin: 20px 11px 13px 2px;
-	font-family: 'Heebo', sans-serif;
-	font-size: 13.5px;
-	color:#09c;
-
+    position: fixed;
+    float: left;
+    margin-top: 57px;
+    width: 10%;
+    height: 2018px;
+    -background-color: #FFFFFF;
+    -box-shadow: 2px 2px 2px #888888;
+    -margin: 20px 11px 13px 2px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13.5px;
+    color: #09c;
 }
-
 .code {
-	-position: fixed;
-	-float: left;
-	-margin-top: 57px;
-	-width: 10%;
-	height: 2600px;
-	background-color: #333333;
-	-box-shadow: 2px 2px 2px #888888;
-	-margin: 20px 11px 13px 2px;
-	font-family: 'Roboto Mono', monospace;
-	font-size: 13.5px;
-	color:#FFFFFF;
-
+    -position: fixed;
+    -float: left;
+    -margin-top: 57px;
+    -width: 10%;
+    height: 2600px;
+    background-color: #333333;
+    -box-shadow: 2px 2px 2px #888888;
+    -margin: 20px 11px 13px 2px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13.5px;
+    color: #FFFFFF;
 }
-
-
-
 .google {
-	-position: fixed;
-	-float: left;
-	-margin-top: -20px;
-	-width: 10%;
-	height: 580px;
-	background-color: #EBF1FC;
-	-box-shadow: 2px 2px 2px #888888;
-	-margin: 20px 11px 13px 2px;
-	font-size: 18px;
-	color:#000000;
-
+    -position: fixed;
+    -float: left;
+    -margin-top: -20px;
+    -width: 10%;
+    height: 580px;
+    background-color: #EBF1FC;
+    -box-shadow: 2px 2px 2px #888888;
+    -margin: 20px 11px 13px 2px;
+    font-size: 18px;
+    color: #000000;
 }
 .ruby {
-	-position: fixed;
-	-float: left;
-	-margin-top: 57px;
-	-width: 10%;
-	height: 400px;
-	background-color: #333333;
-	-box-shadow: 2px 2px 2px #888888;
-	-margin: 20px 11px 13px 2px;
-	font-family: 'Roboto Mono', monospace;
-	font-size: 13.5px;
-	color:#FFFFFF;
-
+    -position: fixed;
+    -float: left;
+    -margin-top: 57px;
+    -width: 10%;
+    height: 400px;
+    background-color: #333333;
+    -box-shadow: 2px 2px 2px #888888;
+    -margin: 20px 11px 13px 2px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13.5px;
+    color: #FFFFFF;
 }
-
 .search {
-	-position: fixed;
-	-float: left;
-	-margin-top: 57px;
-	-width: 10%;
-	height: 50px;
-	background-color: #B2A454;;
-	-box-shadow: 2px 2px 2px #888888;
-	-margin: 20px 11px 13px 2px;
-	font-family: 'Times', sans-serif;
-	font-size: 15.5px;
-	color:#FFF;
-
-
+    -position: fixed;
+    -float: left;
+    -margin-top: 57px;
+    -width: 10%;
+    height: 50px;
+    background-color: #B2A454;
+    ;
+    -box-shadow: 2px 2px 2px #888888;
+    -margin: 20px 11px 13px 2px;
+    font-family: 'Times', sans-serif;
+    font-size: 15.5px;
+    color: #FFF;
 }
-
 .right1 {
-	-position: center;
-	float: right;
-	margin-top: 40px;
-	width: 83%;
-	height: 40px;
-	-background:#FFFFFF;
-	-margin-bottom: 0.1px;
-  margin-right: 86px;
- -margin-left: 3px;
-
-
+    -position: center;
+    float: right;
+    margin-top: 40px;
+    width: 83%;
+    height: 40px;
+    -background: #FFFFFF;
+    -margin-bottom: 0.1px;
+    margin-right: 86px;
+    -margin-left: 3px;
 }
-
 .navtop {
     -position: fixed;
     margin-right: 110px;
     float: left;
-	margin-left: 22px;
+    margin-left: 22px;
     margin-bottom: 11115px;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
     font-size: 18px;
-	letter-spacing: -.20px;
+    letter-spacing: -.20px;
     -text-transform: uppercase;
     -background-color: red;
 }
-
-
-
-
-
 .right2 {
-	position: relative;
-	float: right;
-	margin-top: -11px;
-	width: 88.9%;
+    position: relative;
+    float: right;
+    margin-top: -11px;
+    width: 88.9%;
     -padding: 0px 0px 0px 5px;
-	height: 9000px;
-	background:#F7F7F7;
-	-background:#FF0000;
-	margin-bottom: 10px;
-
+    height: 9000px;
+    background: #F7F7F7;
+    -background: #FF0000;
+    margin-bottom: 10px;
 }
-
-
-
 .my-icon {
     position: relative;
 }
