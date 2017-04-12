@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="308px" viewBox="0 0 200 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="308"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="308" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="31" width="200" height="32"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="32" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="200" height="32"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="32" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="7" y="36" width="187" height="22" rx="3"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.51372549   0 0 0 0 0.733333333   0 0 0 0 0.933333333  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="187" height="22" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <use id="Rectangle" stroke="#E2E1E5" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <use id="Rectangle-2-Copy" stroke="#E8E7EB" mask="url(#mask-4)" stroke-width="2" fill="#FBFBFD" xlink:href="#path-3"></use>
+            <use id="Rectangle-2" stroke="#E8E7EB" mask="url(#mask-6)" stroke-width="2" fill="#F6F6F6" xlink:href="#path-5"></use>
+            <text id="Pages" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" letter-spacing="-0.375" fill="#000000">
+                <tspan x="23" y="21">Pages</tspan>
+            </text>
+            <rect id="Rectangle-3" fill="#919499" x="59" y="12" width="22" height="11" rx="5.5"></rect>
+            <text id="23" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" letter-spacing="-0.371900827" fill="#FFFFFF">
+                <tspan x="64.3103774" y="21">23</tspan>
+            </text>
+            <polygon id="Triangle" fill="#000000" transform="translate(13.000000, 16.666667) scale(-1, -1) translate(-13.000000, -16.666667) " points="13 14 18 19.3333333 8 19.3333333"></polygon>
+            <g id="Rectangle-4">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use stroke="#83BBEE" mask="url(#mask-9)" stroke-width="2" xlink:href="#path-7"></use>
+            </g>
+            <text id="Learn-Ruby-the-Hardw" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="80">Learn Ruby the Hardway</tspan>
+            </text>
+            <text id="Ruby-Classes" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="104.666667">Ruby Classes</tspan>
+            </text>
+            <text id="Ruby-Code-Snippets" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="128.666667">Ruby Code Snippets</tspan>
+            </text>
+            <text id="Ruby-Gems" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="152.666667">Ruby Gems</tspan>
+            </text>
+            <text id="Ruby-irb" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="176.666667">Ruby irb</tspan>
+            </text>
+            <text id="Ruby-on-Rails" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="200.666667">Ruby on Rails</tspan>
+            </text>
+            <text id="Ruby-Selected-Progra" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="224.666667">Ruby Selected Programs</tspan>
+            </text>
+            <text id="Ruby-Sources" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="248.666667">Ruby Sources</tspan>
+            </text>
+            <text id="Ruby-Sources" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="272.666667">Ruby Sources</tspan>
+            </text>
+            <text id="Ruby-Version-Control" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold" letter-spacing="-0.375" fill="#0058D8">
+                <tspan x="8" y="296.666667">Ruby Version Control</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
