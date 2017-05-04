@@ -16,9 +16,24 @@ html, body {background: #181818; font-family: 'Heebo', helvetica, arial, sans-se
 .clear {clear: both;}
 
 a:link {
-    text-decoration: none;
+    text-decoration: bold;
 	color:#000000;
 }
+
+a:link {
+
+  text-decoration: none;
+	color: #EC1C24;
+}
+a:visited {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+a:hover, a:focus {
+  text-decoration: underline overline;
+	color: red;
+}
+
 
 p {
 	font-size: 1em;
@@ -92,8 +107,9 @@ p {
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #444;
+	color: #EC1C24;
 	text-decoration: none;
+	a hover: underline overline;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
 	-o-transition: all .3s ease-in;
@@ -102,7 +118,7 @@ p {
 }
 
 #contactDetails ul li a:hover {
-	color: #cf8a05;
+	text-decoration: underline overline;
 }
 
 
