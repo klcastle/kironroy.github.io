@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Computer Quotes</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="quotes_style.css">
@@ -14,22 +14,31 @@
 <body>
 
 <div class="container-fluid">
-  <h1>Random Computer Science Quotes</h1>
+  <div class="row">
+     <br>
+     <div class="col-sm-4" style="background-color:lavender;"><span style="color:lavender">.</span></div>
+     <div class="col-sm-4" style="background-color:lavenderblush;"><span style="color:lavenderblush">.</span></div>
+     <div class="col-sm-4" style="background-color:lavender;"><span style="color:lavender">.</span></div>
+   </div>
+  <h1>Computer Science Quotes</h1>
 <br>
   <div id="quoteDisplay">
     <!-- Quotes will be displayed here -->
   </div>
 <!-- style this button -->
   <br>
-  <button onclick="newQuote()">New Quote</button>
+  <button onclick="newQuote()" class="btn btn-primary">New Quote</button>
+  <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
+    <button type="button" class="btn btn-primary">Tweet it!</button>
+  </a>
+
   <br>
   <script src="quotes_script.js"></script>
-
-  <div class="row">
+ <div class="row">
     <br>
-    <div class="col-sm-4" style="background-color:lavender;"><p>|</p></div>
-    <div class="col-sm-4" style="background-color:lavenderblush;"><p>|</p></div>
-    <div class="col-sm-4" style="background-color:lavender;"><p>|</p></div>
+    <div class="col-sm-4" style="background-color:lavender;"><span style="color:lavender">.</span></div>
+    <div class="col-sm-4" style="background-color:lavenderblush;"><span style="color:lavenderblush">.</span></div>
+    <div class="col-sm-4" style="background-color:lavender;"><span style="color:lavender">.</span></div>
   </div>
 </div>
 
