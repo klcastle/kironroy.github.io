@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quote Generator</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Simple Quote Generator</h1>
+  <div id="quoteDisplay">
+    <!-- Quotes will be displayed here -->
+  </div>
+<!-- style this button -->
+  <button onclick="newQuote()">New Quote</button>
+  <script src="javascript.js"></script>
+</body>
+</html>
