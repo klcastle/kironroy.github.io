@@ -216,9 +216,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    font-style: italic;
     margin: 10px 0
 }
 .w3-wide {
