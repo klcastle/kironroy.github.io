@@ -12,11 +12,11 @@
     "viewport">
     <script type="text/javascript">
    if ( window.addEventListener ) {
-     var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];
+     var state = 0, hackers = [72,65,67,75,69,82,83];
      window.addEventListener("keydown", function(e) {
-       if ( e.keyCode == konami[state] ) state++;
+       if ( e.keyCode == hackers[state] ) state++;
        else state = 0;
-       if ( state == 10 )
+       if ( state == 7 )
          window.location = "https://www.youtube.com/watch?v=Ah7Mx38Sguo";
        }, true);
    }

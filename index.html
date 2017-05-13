@@ -13,11 +13,11 @@
   </script>
   <script type="text/javascript">
  if ( window.addEventListener ) {
-   var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];
+   var state = 0, fun = [70,85,78];
    window.addEventListener("keydown", function(e) {
-     if ( e.keyCode == konami[state] ) state++;
+     if ( e.keyCode == fun[state] ) state++;
      else state = 0;
-     if ( state == 10 )
+     if ( state == 3 )
        window.location = "https://kironroy.github.io/archives";
      }, true);
  }
