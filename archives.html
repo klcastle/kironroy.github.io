@@ -10,6 +10,17 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, user-scalable=no" name=
     "viewport">
+    <script type="text/javascript">
+   if ( window.addEventListener ) {
+     var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];
+     window.addEventListener("keydown", function(e) {
+       if ( e.keyCode == konami[state] ) state++;
+       else state = 0;
+       if ( state == 10 )
+         window.location = "https://www.youtube.com/watch?v=Rn2cf_wJ4f4";
+       }, true);
+   }
+   </script>
 	<link href='https://fonts.googleapis.com/css?family=Heebo:300' rel='stylesheet' type='text/css'>
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link href="assets/css/main.css" rel="stylesheet">
