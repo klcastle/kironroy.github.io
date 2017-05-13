@@ -8,8 +8,20 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="/favicon.ico" rel="icon" type="image/x-icon"><!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+  <script src="js/konmai.js"></script>
   <script src="js/jquery.min.js">
   </script>
+  <script type="text/javascript">
+ if ( window.addEventListener ) {
+   var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];
+   window.addEventListener("keydown", function(e) {
+     if ( e.keyCode == konami[state] ) state++;
+     else state = 0;
+     if ( state == 10 )
+       window.location = "https://kironroy.github.io/archives";
+     }, true);
+ }
+ </script>
   <script src="js/jquery.scrolly.min.js">
   </script>
   <script src="js/jquery.scrollzer.min.js">
