@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Kiron Roy</title>
-	<link href='https://fonts.googleapis.com/css?family=Heebo:300' rel='stylesheet' type='text/css'>
-</head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Heebo, sans-serif;
+  font-family: Verdana, sans-serif;
   margin: 0;
 }
 
@@ -148,7 +144,7 @@ img.hover-shadow {
 </style>
 <body>
 
-<h2 style="text-align:center">Night Scene</h2>
+<h2 style="text-align:center">Lightbox</h2>
 
 <div class="row">
   <div class="column">
@@ -163,30 +159,6 @@ img.hover-shadow {
   <div class="column">
     <img src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/05.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/06.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/07.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/08.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/09.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
-  </div>
 </div>
 
 <div id="myModal" class="modal">
@@ -194,66 +166,26 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 12</div>
+      <div class="numbertext">1 / 4</div>
       <img src="https://kironroy.github.io/images/fulls/01.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 12</div>
+      <div class="numbertext">2 / 4</div>
       <img src="https://kironroy.github.io/images/fulls/02.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 12</div>
+      <div class="numbertext">3 / 4</div>
       <img src="https://kironroy.github.io/images/fulls/03.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">4 / 12</div>
+      <div class="numbertext">4 / 4</div>
       <img src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%">
     </div>
 
-    <div class="mySlides">
-      <div class="numbertext">5 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/05.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">6 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/06.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">7 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/07.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">8 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/08.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">9 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/09.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">10 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/10.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">11 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/10.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">12 / 12</div>
-      <img src="https://kironroy.github.io/images/fulls/10.jpg" style="width:100%">
-    </div>
-
-   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     <div class="caption-container">
@@ -262,16 +194,16 @@ img.hover-shadow {
 
 
     <div class="column">
-      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
   </div>
 </div>
