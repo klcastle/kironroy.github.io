@@ -12,7 +12,7 @@ body {
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 1px;
 }
 
 .row:after {
@@ -23,7 +23,7 @@ body {
 
 .column {
   float: left;
-  width: 25%;
+  width: 100%;
 }
 
 /* The Modal (background) */
@@ -43,7 +43,7 @@ body {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #FFF;
   margin: auto;
   padding: 0;
   width: 90%;
@@ -102,7 +102,7 @@ body {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* Number text (1/3 etc) */
@@ -139,7 +139,7 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  -box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 </style>
 <body>
@@ -159,6 +159,18 @@ img.hover-shadow {
   <div class="column">
     <img src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
+    <div class="column">
+    <img src="https://kironroy.github.io/images/fulls/05.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://kironroy.github.io/images/fulls/06.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://kironroy.github.io/images/fulls/07.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://kironroy.github.io/images/fulls/08.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
 </div>
 
 <div id="myModal" class="modal">
@@ -166,23 +178,42 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">1 / 8</div>
       <img src="https://kironroy.github.io/images/fulls/01.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+      <div class="numbertext">2 / 8</div>
       <img src="https://kironroy.github.io/images/fulls/02.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
+      <div class="numbertext">3 / 8</div>
       <img src="https://kironroy.github.io/images/fulls/03.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
+      <div class="numbertext">4 / 8</div>
       <img src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="https://kironroy.github.io/images/fulls/05.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="https://kironroy.github.io/images/fulls/06.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://kironroy.github.io/images/fulls/07.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="https://kironroy.github.io/images/fulls/08.jpg" style="width:100%">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -194,7 +225,7 @@ img.hover-shadow {
 
 
     <div class="column">
-      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunddrise">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://kironroy.github.io/images/fulls/02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
@@ -205,6 +236,19 @@ img.hover-shadow {
     <div class="column">
       <img class="demo cursor" src="https://kironroy.github.io/images/fulls/04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
+  <div class="column">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/05.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  <div class="column">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/06.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  <div class="column">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/07.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  <div class="column">
+      <img class="demo cursor" src="https://kironroy.github.io/images/fulls/08.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+
   </div>
 </div>
 
