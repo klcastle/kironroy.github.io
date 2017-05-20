@@ -25,49 +25,69 @@
             <text id="Pages" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold">
                 <tspan x="23" y="21">Pages</tspan>
             </text>
-            <polygon id="Triangle" fill="#000000" fill-rule="nonzero" transform="translate(13.000000, 16.666667) rotate(180.000000) translate(-13.000000, -16.666667) " points="13 14 18 19.3333333 8 19.3333333"></polygon>
+            <polygon id="Triangle" fill="#000000" fill-rule="nonzero" transform="translate(13.000000, 16.666667) rotate(180.000000) translate(-13.000000, -16.666667) " points="13 14.0000007 18 19.333334 8 19.333334"></polygon>
             <g id="Rectangle-4" transform="translate(6.000000, 37.000000)">
                 <g id="path-4-link" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" fill="#FFFFFF">
                     <rect id="path-4" x="0" y="0" width="187" height="22" rx="3"></rect>
                 </g>
                 <g id="Rectangle-path">
                     <rect stroke="#AFCFEF" stroke-width="2" x="0.5" y="0.5" width="188" height="23" rx="3"></rect>
-                    <g id="path-2-link" transform="translate(1.000000, 1.000000)" stroke="#4A7FBE">
+                    <g id="path-2-link" transform="translate(1.000000, 1.000000)" stroke="#2B84E9">
                         <rect id="path-2" x="0.5" y="0.5" width="186" height="21" rx="3"></rect>
                     </g>
                 </g>
             </g>
             <g id="Group" transform="translate(10.000000, 73.000000)" font-size="11" font-family="Arial-BoldMT, Arial" fill="#0366D8" font-weight="bold">
-                <text id="Learn-Ruby-the-Hardway">
-                    <tspan x="0" y="10">Learn Ruby the Hardway</tspan>
-                </text>
-                <text id="Ruby-Classes">
-                    <tspan x="0" y="34.666667">Ruby Classes</tspan>
-                </text>
-                <text id="Ruby-Code-Snippets">
-                    <tspan x="0" y="58.666667">Ruby Code Snippets</tspan>
-                </text>
-                <text id="Ruby-Gems">
-                    <tspan x="0" y="82.666667">Ruby Gems</tspan>
-                </text>
-                <text id="Ruby-irb">
-                    <tspan x="0" y="106.666667">Ruby irb</tspan>
-                </text>
-                <text id="Ruby-on-Rails">
-                    <tspan x="0" y="130.666667">Ruby on Rails</tspan>
-                </text>
-                <text id="Ruby-Selected-Programs">
-                    <tspan x="0" y="154.666667">Ruby Selected Programs</tspan>
-                </text>
-                <text id="Ruby-Sources">
-                    <tspan x="0" y="178.666667">Ruby Sources</tspan>
-                </text>
-                <text id="Ruby-Sources">
-                    <tspan x="0" y="202.666667">Ruby Sources</tspan>
-                </text>
-                <text id="Ruby-Version-Control">
-                    <tspan x="0" y="226.666667">Ruby Version Control</tspan>
-                </text>
+                <g id="Learn-Ruby-the-Hardway">
+                    <text>
+                        <tspan x="0" y="10">Learn Ruby the Hardway</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Classes" transform="translate(0.000000, 24.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Classes</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Code-Snippets" transform="translate(0.000000, 48.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Code Snippets</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Gems" transform="translate(0.000000, 72.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Gems</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-irb" transform="translate(0.000000, 96.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby irb</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-on-Rails" transform="translate(0.000000, 120.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby on Rails</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Selected-Programs" transform="translate(0.000000, 144.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Selected Programs</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Sources" transform="translate(0.000000, 168.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Sources</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Sources" transform="translate(0.000000, 192.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Sources</tspan>
+                    </text>
+                </g>
+                <g id="Ruby-Version-Control" transform="translate(0.000000, 216.000000)">
+                    <text>
+                        <tspan x="0" y="10.666667">Ruby Version Control</tspan>
+                    </text>
+                </g>
             </g>
             <rect id="Rectangle-3" fill="#919499" fill-rule="nonzero" x="60" y="12" width="22" height="11" rx="5.5"></rect>
             <text id="99" fill="#FFFFFF" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold">
