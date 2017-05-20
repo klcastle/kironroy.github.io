@@ -3,49 +3,38 @@
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>search</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-4.3%" y="-36.4%" width="108.6%" height="172.7%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.71372549   0 0 0 0 0.882352941   0 0 0 0 0.949019608  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-2" x="0.5" y="0.5" width="186" height="21" rx="3"></rect>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="search">
             <rect id="Rectangle-path" stroke="#E8E7EB" x="0.5" y="0.5" width="199" height="31"></rect>
-            <g id="Rectangle-2" transform="translate(1.000000, 1.000000)"></g>
             <g id="Rectangle">
-                <g id="path-1-link" fill="#FFFFFF">
+                <g id="path-1-link" fill-rule="nonzero" fill="#FFFFFF">
                     <rect id="path-1" x="0" y="0" width="200" height="308"></rect>
                 </g>
                 <rect id="Rectangle-path" stroke="#E2E1E5" x="0.5" y="0.5" width="199" height="307" rx="2"></rect>
             </g>
-            <g id="path-3-link" transform="translate(1.000000, 1.000000)" fill="#F6F6F6">
+            <g id="path-3-link" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" fill="#F6F6F6">
                 <rect id="path-3" x="0" y="0" width="198" height="30" rx="2"></rect>
             </g>
             <g id="Rectangle-2-Copy" transform="translate(0.000000, 31.000000)">
-                <g id="path-2-link" fill="#FBFBFD">
-                    <rect id="path-2" x="0" y="0" width="200" height="32"></rect>
+                <g id="path-2-link" fill-rule="nonzero" fill="#FBFBFD">
+                    <rect id="path-2" x="0" y="0" width="200" height="37"></rect>
                 </g>
-                <rect id="Rectangle-path" stroke="#E8E7EB" x="0.5" y="0.5" width="199" height="31"></rect>
+                <rect id="Rectangle-path" stroke="#E8E7EB" x="0.5" y="0.578125" width="199" height="35.84375"></rect>
             </g>
             <text id="Pages" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold">
                 <tspan x="23" y="21">Pages</tspan>
             </text>
-            <polygon id="Triangle" fill="#000000" fill-rule="nonzero" transform="translate(13.000000, 16.666667) rotate(180.000000) translate(-13.000000, -16.666667) " points="13 14.0000007 18 19.333334 8 19.333334"></polygon>
-            <g id="Rectangle-4" filter="url(#filter-1)" transform="translate(7.000000, 36.000000)">
-                <g id="path-4-link" fill="#FFFFFF">
+            <polygon id="Triangle" fill="#000000" fill-rule="nonzero" transform="translate(13.000000, 16.666667) rotate(180.000000) translate(-13.000000, -16.666667) " points="13 14 18 19.3333333 8 19.3333333"></polygon>
+            <g id="Rectangle-4" transform="translate(6.000000, 37.000000)">
+                <g id="path-4-link" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" fill="#FFFFFF">
                     <rect id="path-4" x="0" y="0" width="187" height="22" rx="3"></rect>
                 </g>
-                <g id="path-4-link"></g>
                 <g id="Rectangle-path">
-                    <rect stroke="#AFCFEF" stroke-width="2" x="-0.5" y="-0.5" width="188" height="23" rx="3"></rect>
-                    <rect stroke="#4A7FBE" stroke-width="1" x="1" y="1" width="185" height="20" rx="3"></rect>
+                    <rect stroke="#AFCFEF" stroke-width="2" x="0.5" y="0.5" width="188" height="23" rx="3"></rect>
+                    <g id="path-2-link" transform="translate(1.000000, 1.000000)" stroke="#4A7FBE">
+                        <rect id="path-2" x="0.5" y="0.5" width="186" height="21" rx="3"></rect>
+                    </g>
                 </g>
             </g>
             <text id="Learn-Ruby-the-Hardway" fill="#0058D8" font-family="Arial-BoldMT, Arial" font-size="11" font-weight="bold">
@@ -85,7 +74,7 @@
             <text id="ruby|" fill="#000000" font-family="ArialMT, Arial" font-size="11" font-weight="normal">
                 <tspan x="13" y="52">ruby|</tspan>
             </text>
-            <rect id="Rectangle-2" fill="#F6F6F6" x="1" y="27" width="198" height="4"></rect>
+            <rect id="Rectangle-2" fill="#F6F6F6" fill-rule="nonzero" x="1" y="27" width="198" height="4"></rect>
         </g>
     </g>
 </svg>
