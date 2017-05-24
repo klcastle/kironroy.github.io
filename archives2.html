@@ -12,6 +12,17 @@
 <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"><!-- For iPhone: -->
 <link href="apple-touch-icon-iphone.png" rel="apple-touch-icon"><!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
 <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"><!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]--><!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<script type="text/javascript">
+ if ( window.addEventListener ) {
+   var state = 0, hackers = [72,65,67,75,69,82,83];
+   window.addEventListener("keydown", function(e) {
+     if ( e.keyCode == hackers[state] ) state++;
+     else state = 0;
+     if ( state == 7 )
+       window.location = "https://www.youtube.com/watch?v=Ah7Mx38Sguo";
+     }, true);
+ }
+ </script>
 </head>
 
 <title>Welcome to Archives</title>
