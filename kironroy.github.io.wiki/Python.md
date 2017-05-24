@@ -18,5 +18,5 @@
 <li><a href="http://ddi.ifi.lmu.de/probestudium/2012/ws-i-3d-programmierung/tutorials/python-referenzkarte/"><b>Python Cheat Sheet</b></a></li>
 <li><a href="https://www.python.org/"><b>Offical Python Page</b></a></li>
 <li><a href="https://pip.pypa.io/en/stable/installing.html">Github PIP</a> </li>
-<li><a href="http://www.decalage.info/en/python/print_list">Python helpful link</a> </li>
+<li><a href="http://www.decalage.info/en/python/print_list">How to easily convert a list to a string for display</a> </li>
 </ul>

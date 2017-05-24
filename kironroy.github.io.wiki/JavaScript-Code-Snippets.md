@@ -124,3 +124,18 @@ typeof(3) === typeof(4.32); // true
  // JavaScript has the same data type for integer and floating point numbers.
 
 ```
+
+*  constructor method
+
+```
+var myString = 'Hello World. How are you doing?';
+var splits = myString.split(' ');
+
+stringArray = splits;
+
+console.log(stringArray);
+
+// check if stringArray is an array
+stringArray.constructor === Array;
+
+```

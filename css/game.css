@@ -1,0 +1,71 @@
+body {
+  background-color: #32292C;
+  marigin-top: 60px;
+  font-family: 'VT323', monospace;
+  color: #F9F7F6;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 0px;
+  border: 8px solid #F9F7F6;
+}
+
+p {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+ul {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+p.game_prompt {
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+}
+
+p.game_intro {
+  font-size: 55px;
+  font-family: 'VT323', monospace;
+  text-align: center;
+  color:
+}
+
+p.game_scene {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+  color: #FFFF66;
+}
+
+a {
+  color: #FFFF66;
+}
