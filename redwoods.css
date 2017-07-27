@@ -13,16 +13,16 @@ a:hover {
     color: #612711;
 }
 
-h2 {
+h3 {
    color: #7F1C25;
    font-family: 'Yantramanav', sans-serif;
-   -font-weight: 300;
+   font-weight: 500;
 }
 
 h1 {
    color: #7F1C25;
    font-family: 'Yantramanav', sans-serif;
-   font-weight: 300;
+   font-weight: 500;
 }
 body {
    font-family: 'Yantramanav', sans-serif;
@@ -46,14 +46,14 @@ body {
 }
 
 .tab label {
-  font-size: 28px;
+  font-size: 25px;
   margin-right: 20px;
 	position: relative;
 	top: 0;
 	cursor: pointer;
 	color: #7F1C25;
   text-transform: smallcaps;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .tab [type=radio] {
@@ -71,8 +71,8 @@ body {
 }
 
 [type=radio]:checked ~ label {
-	border-bottom: 2px solid #1d1d1d;
-	color: #1d1d1d;
+	border-bottom: 1px solid #7F1C25;;
+	color: #7F1C25;
 	z-index: 2;
 }
 
