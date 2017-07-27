@@ -1,0 +1,69 @@
+
+
+body {
+  background-color: #F4F0ED;
+  marigin-top: 60px;
+  font-family: 'Heebo', arial;
+  color: #32292C;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Heebo', arial;
+  font-size: 30px;
+
+}
+
+h2 {
+  text-align: center;
+   color: #32292C;
+  font-family: 'Heebo', arial;
+ font-size: 58px;
+  font-weignt; 300px;
+
+
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Heebo', arial;
+  font-weight:300;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Heebo', arial;
+  font-weight: 300;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+
+
+}
+
+p {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    color: #F9F7F6;
+    font-family: 'Heebo', arial;
+}
+
+ul {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+p.italic {
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Heebo', arial;
+  font-weight: 300;
+   color: #32292C;
+
+}
