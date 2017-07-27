@@ -47,14 +47,13 @@ body {
 
 .tab label {
   font-size: 28px;
-  font-weight: 500;
-	margin-right: 20px;
+  margin-right: 20px;
 	position: relative;
 	top: 0;
 	cursor: pointer;
 	color: #7F1C25;
-   text-transform: smallcaps;
-   font-weight: 300;
+  text-transform: smallcaps;
+  font-weight: 300;
 }
 
 .tab [type=radio] {
@@ -62,7 +61,7 @@ body {
 }
 
 .tab__content {
-   position: absolute;
+  position: absolute;
 	top: 40px;
 	left: 0;
 	right: 0;
