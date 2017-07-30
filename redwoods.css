@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Yantramanav:300,500');
+
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
 
 a {
-    background-color:transparent;
+    -background-color:transparent;
     text-decoration: none;
     color: #7F1C25;
     font-style: normal;
@@ -15,18 +16,18 @@ a:hover {
 
 h2 {
    color: #7F1C25;
-   font-family: 'Yantramanav', sans-serif;
+   font-family: 'Bellefair', sans-serif;
    -font-weight: 300;
 }
 
 h1 {
    color: #7F1C25;
-   font-family: 'Yantramanav', sans-serif;
+   font-family: 'Bellefair', sans-serif;
    font-weight: 300;
 }
 body {
-   font-family: 'Yantramanav', sans-serif;
-   background-color: #FEFEFE;
+   font-family: 'Bellefair', sans-serif;
+   background-color: #E8F2F1;
    padding-top: 50px;
    line-height: 1.2;
    font-size: 1.2em;
@@ -52,7 +53,7 @@ body {
 	top: 0;
 	cursor: pointer;
 	color: #7F1C25;
-  text-transform: smallcaps;
+  -text-transform: uppercase;
   font-weight: 300;
 }
 
