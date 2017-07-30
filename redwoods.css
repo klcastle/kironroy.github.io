@@ -49,15 +49,12 @@ body {
 }
 
 .tab label {
-  font-size: 24px;
+  font-size: 28px;
   margin-right: 25px;
 	position: relative;
 	top: 0;
 	cursor: pointer;
 	color: #7F1C25;
-  -text-transform: uppercase;
-  -font-family: "Helvetica";
-
 }
 
 .tab [type=radio] {
