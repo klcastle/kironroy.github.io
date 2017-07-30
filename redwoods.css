@@ -32,7 +32,7 @@ body {
    padding-left: 50px;
    padding-right: 50px;
    line-height: 1.2;
-   font-size: 1.35em;
+   font-size: 1.33em;
 
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .tab label {
-  font-size: 28px;
+  font-size: 24px;
   margin-right: 25px;
 	position: relative;
 	top: 0;
