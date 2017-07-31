@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Bellefair');
+/*@import url('https://fonts.googleapis.com/css?family=Bellefair');*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i');
 
 a {
     -background-color:transparent;
@@ -16,24 +17,30 @@ a:hover {
 
 h2 {
    color: #7F1C25;
-   font-family: 'Bellefair', sans-serif;
+   font-family: 'Cormorant Garamond', serif;
    -font-weight: 300;
 }
 
 h1 {
    color: #7F1C25;
-   font-family: 'Bellefair', sans-serif;
+   font-family: 'Cormorant Garamond', serif;
    font-weight: 300;
 }
 body {
-   font-family: 'Bellefair', sans-serif;
+   font-family: 'Cormorant Garamond', serif;
    background-color: #E8F2F1;
    padding-top: 50px;
    padding-left: 50px;
-   padding-right: 50px;
+   padding-right: 40px;
    line-height: 1.2;
    font-size: 1.33em;
 
+}
+
+.books_italics a:link {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  a
 }
 
 .tabs {
