@@ -19,3 +19,4 @@
 * [8 bit convertor 2](https://www.imgonline.com.ua/eng/8bit-picture.php)
 * [cartoon convertor](http://cartoon.pho.to/)
 * [css zen garden](http://www.csszengarden.com/)
+* [Reveal JavaScript: The HTML Presentation Framework](http://lab.hakim.se/reveal-js/)
