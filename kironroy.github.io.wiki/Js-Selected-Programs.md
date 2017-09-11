@@ -1,5 +1,5 @@
 **Selected Programs:**
-
+* [square_html-jss.js](https://repl.it/IQ4H/19)
 * [accessing_data_objects.js](https://repl.it/Hezm/0)
 * [tree_lookup.js](https://repl.it/Hezv/0)
 * [grocery_list.js](https://repl.it/HfAF/0)
