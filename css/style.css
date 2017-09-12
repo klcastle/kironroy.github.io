@@ -1,5 +1,6 @@
 
 @import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
 
 /*
 	Prologue by HTML5 UP
@@ -34,9 +35,9 @@
 
 	body,input,textarea,select
 	{
-	   	font-family: 'Heebo', sans-serif;
+	  font-family: 'Heebo', sans-serif;
 		font-weight: 300;
-		-font-size: 16pt;
+		font-size: 16pt;
 
 		line-height: 1.75em;
 		color: #FFF;
