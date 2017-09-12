@@ -9,6 +9,8 @@ padding:0;
 vertical-align:baseline;
 }
 
+/* no animations */
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
