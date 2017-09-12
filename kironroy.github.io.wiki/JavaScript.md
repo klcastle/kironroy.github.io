@@ -19,5 +19,6 @@
 <li><a href="https://www.youtube.com/watch?v=Ukg_U3CnJWI">Learn JavaScript in 12 Minutes (Basics)</a> </li>
 <li><a href="http://www.w3schools.com/js/default.asp">JavaScript w3school</a> </li>
 <li><a href="http://kylestetz.github.io/Sentencer/">Sentencer</a> </li>
+<li><a href="http://hood.ie/">Hood Js backend</a></li>
 
 </ul>
