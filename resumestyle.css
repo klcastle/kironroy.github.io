@@ -13,7 +13,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Heebo', helvetica, arial, sans-serif; font-size: 16px; font-weight: 300; color: #222;}
+html, body {
+  background: #181818;
+  font-family: 'Heebo', helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;}
 
 .clear {clear: both;}
 
