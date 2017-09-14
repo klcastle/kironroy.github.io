@@ -7,6 +7,7 @@
 * Templates
   * [HTML5 UP](https://html5up.net/)
   * [W3Schools' Bootstrap Templates](https://www.w3schools.com/bootstrap/bootstrap_templates.asp)
+  * [Jekyll Themes](http://jekyllthemes.org/)
 * [Google Test Site](https://testmysite.thinkwithgoogle.com/intl/en-us)
 * [HTML Art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 * [Thimble by Mozilla](https://thimble.mozilla.org/en-US/)

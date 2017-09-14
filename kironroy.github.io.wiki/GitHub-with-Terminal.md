@@ -1,14 +1,16 @@
 **GitHub commands in Terminal:**
 ***
 
-1. adding files to GitHub 
+1. adding files to GitHub
 1. do steps in this order
 
 > ```git clone https://github.com/kironroy/kironroy.github.io```
 
 > ```git add -A```add all files from computer folder to GitHub (Same for folders, but folders = content)
->     
+
 > ```git add index.html``` add one file at a time
+
+> ```git add {index,resume}.html``` adding a few files with same file extenstion
 
 > ```git commit -m``` "Add some notes about the commit"
 
@@ -32,7 +34,4 @@ removing files to GitHub:
 
 > ```git merge branch_name``` Used to join file changes from one branch to another.
 
-> ```git branch -d branch_name``` Deletes the branch specified. 
-
-
-
+> ```git branch -d branch_name``` Deletes the branch specified.

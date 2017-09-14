@@ -23,6 +23,7 @@
 * Templates
   * [HTML5 UP](https://html5up.net/)
   * [W3Schools' Bootstrap Templates](https://www.w3schools.com/bootstrap/bootstrap_templates.asp)
+  * [Jekyll Themes](http://jekyllthemes.org/)
 * [Google Test Site](https://testmysite.thinkwithgoogle.com/intl/en-us)
 * [HTML Art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 * [Thimble by Mozilla](https://thimble.mozilla.org/en-US/)
@@ -37,7 +38,6 @@
 * [cartoon convertor](http://cartoon.pho.to/)
 * [css zen garden](http://www.csszengarden.com/)
 * [Reveal JavaScript: The HTML Presentation Framework](http://lab.hakim.se/reveal-js/)
-
 
 ***
 
@@ -69,6 +69,7 @@
   - [Jr. Web Job Board](https://www.jrdevjobs.com/#!)
   - [Jr. Web Job Board Profile](https://www.jrdevjobs.com/profiles/kiron-roy)
   - [Skill Crush](https://skillcrush.com/2015/07/14/job-sites-to-find-your-first-developer-job/)
+  - [Cyber Coders](https://www.cybercoders.com/jobs/)
 
 
 ***
