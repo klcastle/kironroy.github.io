@@ -1,6 +1,4 @@
 ![apple logo](https://kironroy.github.io/apple.svg)
-**Terminal for Mac:**
-
 
 ```cd``` = change directory
 
