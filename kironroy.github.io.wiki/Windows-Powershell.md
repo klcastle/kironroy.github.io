@@ -1,3 +1,5 @@
+![windows logo](https://kironroy.github.io/windows.svg)
+
 **Links:**
 
 * [What Can I Do With Windows PowerShell?](https://technet.microsoft.com/en-us/library/5a761ad4-9a3e-4bd7-abe8-27bf7c54af36/)
@@ -13,14 +15,14 @@
 **PowerShell:**
 
 ```
-# powershell = terminal
+# powershell = terminal (macOS)
 ```
 
 ```get-location = pwd``` present working directory
 
 ```cd = cd``` Current Directory
 
-```mkdir = mkdir``` make a new directory 
+```mkdir = mkdir``` make a new directory
 
 ```rmdir = rmdir``` remove directory
 
@@ -40,5 +42,4 @@ copy all
 
 ```clear = clear``` clear powershell / terminal
 
-```exit = exit``` exit powershell / terminal 
-
+```exit = exit``` exit powershell / terminal

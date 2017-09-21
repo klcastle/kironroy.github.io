@@ -1,8 +1,8 @@
-**GitHub commands in Terminal:**
-***
+
+![github logo](https://kironroy.github.io/github.svg)
 
 1. adding files to GitHub
-1. do steps in this order
+2. do steps in this order
 
 > ```git clone https://github.com/kironroy/kironroy.github.io```
 
