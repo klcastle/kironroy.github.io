@@ -1,3 +1,5 @@
+![js logo](https://kironroy.github.io/js.svg)
+
 <i>Notes for Intro to JavaScript on<a href="https://www.codecademy.com/learn/introduction-to-javascript"> Codecademy</a></i>
 
 <ul>
