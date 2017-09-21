@@ -42,7 +42,7 @@ puts myStr
 
 *  == vs ===
 ```
-// == Equality Operato checks if two pieces of data VALUES are the EQUAL
+// == Equality Operator checks if two pieces of data VALUES are the EQUAL
 // === Strict Equality Operator checks both VALUE and DATA type
 
 var number = 26;
@@ -137,5 +137,57 @@ console.log(stringArray);
 
 // check if stringArray is an array
 stringArray.constructor === Array;
+
+```
+
+*  function declaration
+
+```
+/*
+
+Functions in JavaScript are generally declared as either
+a function declaration or a function expression.
+A function declaration is a function that is
+bound to an identifier or name.
+
+*/
+
+// function declaration
+
+function isGreaterThan(numberOne, numberTwo) {
+  if (numberOne > numberTwo) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isGreaterThan(8,6));
+
+```
+*  function expression
+
+```
+/*
+
+function expression identifier can be omitted,
+creating an anonymous function.
+Function expressions are often stored in a variable.
+function expression by the absence of a function name
+immediately trailing the function keyword.
+
+*/
+
+// function expression
+
+const isGreaterThan = (numberOne, numberTwo) => {
+  if (numberOne > numberTwo) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isGreaterThan(8,6));
 
 ```
