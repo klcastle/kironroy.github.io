@@ -44,5 +44,6 @@
 <li><a href="http://www.w3schools.com/js/default.asp">JavaScript w3school</a> </li>
 <li><a href="http://kylestetz.github.io/Sentencer/">Sentencer</a> </li>
 <li><a href="http://hood.ie/">Hood Js backend</a></li>
+<li><a href="https://electron.atom.io/">Electron desktop apps with JS</a></li>
 
 </ul>

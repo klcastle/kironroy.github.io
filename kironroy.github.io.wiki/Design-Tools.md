@@ -1,5 +1,5 @@
 
-**Design Tools:**
+![design logo](https://kironroy.github.io/design.svg)
 
 * [Katie Wasserman](http://katiewasserman.com/)  
 * [Slides](https://slides.com/kironroy)
