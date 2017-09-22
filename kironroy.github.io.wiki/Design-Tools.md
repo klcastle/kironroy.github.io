@@ -1,6 +1,6 @@
 
 ![design logo](https://kironroy.github.io/design.svg)
-
+* [Affinity Photo](https://affinity.serif.com/en-us/photo/)
 * [Katie Wasserman](http://katiewasserman.com/)  
 * [Slides](https://slides.com/kironroy)
 * [Intro to Typography Basics](https://design.tutsplus.com/articles/a-20-minute-intro-to-typography-basics--psd-3326)
