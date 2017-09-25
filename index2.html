@@ -21,6 +21,7 @@
 	</script>
 	<script src="js/init.js">
 	</script> <noscript>
+
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/skel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
@@ -40,6 +41,8 @@
 			<div id="logo">
 				<!--<center><span class="image avatar48"><img src="logo2.svg" style="width:50px;height:50px;"></span></center>-->
 				<h1 id="title">Kiron Roy</h1><br>
+
+				<br>
 			</div><!-- Nav -->
 			<nav id="nav">
 				<ul>
@@ -82,6 +85,7 @@
 		<section class="one dark cover" id="top">
 			<h2>Kiron Roy</h2>
 			<div class="container">
+				<header><div id='quote'>s</div></header>
 				<br>
 				<!--**************************************SVG CODE AFTER THIS KIRON LOGO *****************************************-->
 				<center>
@@ -376,6 +380,19 @@
 	<div id="footer">
 		<div class="copyright" style="margin-left: 2em">
 			<a href="http://html5up.net">HTML5 UP</a> &nbsp; <a href="http://kironroy.github.io/">Kiron Roy</a>
+			<script>
+			var div = document.getElementById('quote');
+			var quotes = [
+			'Web Development',
+			'Photography'
+			];
+			var pos = 1;
+				setInterval(function(){
+					 if (pos >= quotes.length - 1) pos = -1;
+					 pos++;
+					 div.innerHTML = quotes[pos];
+				}, 2000) // every 4 seconds
+			</script>
 		</div>
 	</div>
 </body>
