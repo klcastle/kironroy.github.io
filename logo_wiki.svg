@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_wiki</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo_wiki">
+            <g id="logo2" transform="translate(1.000000, 1.000000)">
+                <rect id="Rectangle-2" fill="#EC1C24" fill-rule="nonzero" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <g id="Group" transform="translate(11.413043, 27.717391)">
+                    <g id="logo">
+                        <g id="camera">
+                            <path d="M25.3563826,7.53275451 L29.5711621,0.501182339 C29.735542,0.22548282 30.1856662,0 30.5774125,0 L47.3887068,0 C47.7809653,0 48.2290411,0.229913705 48.3847155,0.507090185 L52.3188078,7.53275451 L66.9477049,7.53275451 C67.7388788,7.53275451 68.3866685,8.14273967 68.3866685,8.88762071 L68.3866685,36.4802193 C68.3866685,37.2236233 67.7368304,37.8331162 66.9477049,37.8331162 L10.2141311,37.8331162 C9.42244511,37.8331162 8.77926424,37.2236233 8.77926424,36.4802193 L8.7797763,8.88762071 C8.7797763,8.14175505 9.42398136,7.53275451 10.2146433,7.53275451 L25.3563826,7.53275451 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <path d="M0.478784067,11 L78.3041049,11" id="Line" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M0.640907484,15 L78.4662283,15" id="Line-Copy" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M0.640907484,19 L78.4662283,19" id="Line-Copy-2" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M0,23 L77.8253208,23" id="Line-Copy-4" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M1,27 L78.8253208,27" id="Line-Copy-5" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M1,31 L78.8253208,31" id="Line-Copy-5-Copy" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M1,31 L78.8253208,31" id="Line-Copy-6" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M1,35 L78.8253208,35" id="Line-Copy-6-Copy" stroke="#EC1C24" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M38.5159012,36.4966555 C30.7135433,36.4966555 24.3868451,30.1773977 24.3868451,22.3651373 C24.3868451,14.5620863 30.7135433,8.23578598 38.5159012,8.23578598 C46.3243251,8.23632766 52.6477146,14.5631697 52.6477146,22.3651373 C52.6477146,30.1779394 46.3226707,36.4966555 38.5159012,36.4966555 Z" id="red_lens" stroke="#FFFFFF" stroke-width="2" fill="#EC1C24" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
