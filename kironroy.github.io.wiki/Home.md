@@ -1,11 +1,12 @@
 
-![logo](https://kironroy.github.io/logo_wiki2.svg)
 
-## [Back to Kiron Roy's Portfolio](https://kironroy.github.io/)
+
+[![logo](https://kironroy.github.io/logo_wiki_home.svg)](https://kironroy.github.io/)
 
 **Host your site with GitHub Pages:**
 
 * [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
+
 ***
 
 **How to use Pages**
@@ -17,7 +18,11 @@
 
 ![search](https://kironroy.github.io/search.svg)
 
-
 ***
 
+**Host your site with GitHub Pages:**
+
+* [GitHub Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+***
 [Legacy Site](https://kironroy.github.io/github)
