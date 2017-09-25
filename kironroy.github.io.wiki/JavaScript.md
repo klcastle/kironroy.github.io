@@ -45,5 +45,6 @@
 <li><a href="http://kylestetz.github.io/Sentencer/">Sentencer</a> </li>
 <li><a href="http://hood.ie/">Hood Js backend</a></li>
 <li><a href="https://electron.atom.io/">Electron desktop apps with JS</a></li>
-
+<li><a href="https://p5js.org/get-started/">p5 documentation</a></li>
+<li><a href="https://alpha.editor.p5js.org/">alpha editor</a></li>
 </ul>

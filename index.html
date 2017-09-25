@@ -31,7 +31,7 @@
 				<!-- Logo -->
 				<div id="logo">
 					<!--<center><span class="image avatar48"><img src="logo2.svg" style="width:50px;height:50px;"></span></center>-->
-					<h1 id="title">Kiron Roy</h1><br>
+					<h1 id="title">Kiron Roy</h1>
 				</div><!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -104,6 +104,8 @@
 							</g>
 						</g></svg>
 					</center><!--**************************************SVG CODE AFTER THIS LOGO ENDS *****************************************-->
+					<br>
+					<header><div id='quote'><!-- quotes --></div></header>
 					<br>
 					<a class="button scrolly" href="http://kironroy.github.io/resume">Résumé</a>
 				</div>
@@ -378,6 +380,23 @@
 			<center>
 				<div class="copyright">
 					<a href="http://html5up.net">Html5 UP</a> &nbsp;&nbsp; <a href="https://kironroy.github.io">Kiron Roy</a>
+
+					<script>
+					// quote script
+					var div = document.getElementById('quote');
+					var quotes = [
+					'Photography',
+					'Wep Mapping',
+					'Front End Web Development'
+					];
+					var pos = 1;
+						setInterval(function(){
+							 if (pos >= quotes.length - 1) pos = -1;
+							 pos++;
+							 div.innerHTML = quotes[pos];
+						}, 2000) // every 4 seconds
+					</script>
+
 				</div>
 			</center>
 		</div>
